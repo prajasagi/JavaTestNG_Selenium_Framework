@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="MavenPackage.validateTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="validateAppTitle"/>
+        </methods>
+      </class> <!-- MavenPackage.validateTitle -->
+      <class name="MavenPackage.Netflix_LoginValidation">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation" invocation-numbers="0 1"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- MavenPackage.Netflix_LoginValidation -->
+      <class name="MavenPackage.Salesforce_LoginValidation">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- MavenPackage.Salesforce_LoginValidation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

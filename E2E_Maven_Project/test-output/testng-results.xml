@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-15T21:08:29Z" name="Suite" finished-at="2021-01-15T21:09:02Z" duration-ms="33335">
+    <groups>
+    </groups>
+    <test started-at="2021-01-15T21:08:29Z" name="Salesforce Automation" finished-at="2021-01-15T21:08:40Z" duration-ms="10821">
+      <class name="MavenPackage.Salesforce_LoginValidation">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:MavenPackage.Salesforce_LoginValidation@3cce57c7]" started-at="2021-01-15T16:08:29Z" name="initialize" finished-at="2021-01-15T16:08:32Z" duration-ms="3473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:MavenPackage.Salesforce_LoginValidation@3cce57c7]" started-at="2021-01-15T16:08:32Z" name="basePageNavigation" finished-at="2021-01-15T16:08:40Z" duration-ms="7335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- MavenPackage.Salesforce_LoginValidation -->
+    </test> <!-- Salesforce Automation -->
+    <test started-at="2021-01-15T21:08:40Z" name="Netflix Automation" finished-at="2021-01-15T21:08:56Z" duration-ms="15888">
+      <class name="MavenPackage.Netflix_LoginValidation">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:MavenPackage.Netflix_LoginValidation@4dd6fd0a]" started-at="2021-01-15T16:08:40Z" name="initialize" finished-at="2021-01-15T16:08:43Z" duration-ms="3151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MavenPackage.Netflix_LoginValidation@4dd6fd0a]" started-at="2021-01-15T16:08:43Z" name="basePageNavigation" data-provider="getData" finished-at="2021-01-15T16:08:52Z" duration-ms="8530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pvarma@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrcited User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MavenPackage.Netflix_LoginValidation@4dd6fd0a]" started-at="2021-01-15T16:08:52Z" name="basePageNavigation" data-provider="getData" finished-at="2021-01-15T16:08:56Z" duration-ms="4115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hvarma@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MavenPackage.Netflix_LoginValidation@4dd6fd0a]" started-at="2021-01-15T16:08:56Z" name="teardown" finished-at="2021-01-15T16:08:56Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- MavenPackage.Netflix_LoginValidation -->
+    </test> <!-- Netflix Automation -->
+    <test started-at="2021-01-15T21:08:56Z" name="SalesForce Title Validation" finished-at="2021-01-15T21:09:02Z" duration-ms="6574">
+      <class name="MavenPackage.validateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:MavenPackage.validateTitle@52815fa3]" started-at="2021-01-15T16:08:56Z" name="initialize" finished-at="2021-01-15T16:09:02Z" duration-ms="6503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateAppTitle()[pri:0, instance:MavenPackage.validateTitle@52815fa3]" started-at="2021-01-15T16:09:02Z" name="validateAppTitle" finished-at="2021-01-15T16:09:02Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MavenPackage.validateTitle@52815fa3]" started-at="2021-01-15T16:09:02Z" name="teardown" finished-at="2021-01-15T16:09:02Z" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- MavenPackage.validateTitle -->
+    </test> <!-- SalesForce Title Validation -->
+  </suite> <!-- Suite -->
+</testng-results>

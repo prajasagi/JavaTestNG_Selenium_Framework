@@ -1,0 +1,35 @@
+package MavenPackage;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+import pageObjects.ForgotPassword;
+import pageObjects.LandingPage;
+import pageObjects.LoginPage;
+import resources.base;
+
+public class HomePage extends base {
+	
+	@Test
+	public void basePageNavigation() throws IOException
+	{
+		driver=initializeDriver();
+		driver.get("http://www.qaclickacademy.com/");
+		
+		LandingPage l =new LandingPage(driver);
+		l.getLogin();
+		LoginPage lp=new LoginPage(driver);
+		lp.getEmail().sendKeys("rspvarma");
+		lp.getPassword().sendKeys("Password");		
+		lp.getLogin().click();
+		lp.forgotPassword();
+		ForgotPassword fp=new ForgotPassword(driver);				
+		fp.getEmail().sendKeys("xxx");
+		fp.sendMeInstructions().click();
+
+		
+		
+	}
+
+}
